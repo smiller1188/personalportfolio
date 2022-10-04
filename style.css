@@ -150,7 +150,7 @@ img {
 }
 
 .projects-section-header {
-  max-width: 640px;
+  max-width: 520px;
   margin: 0 auto 6rem auto;
   border-bottom: 0.2rem solid var(--main-white);
 }
@@ -164,7 +164,7 @@ img {
   .projects-grid {
     --gap: 16px;
     --num-cols: 2;
-    --row-height: 550px;
+    --row-height: 500px;
     box sizing: border box;
     --padding: var(--gap);
     display: grid;
@@ -172,6 +172,7 @@ img {
     grid-auto-rows: var(--row-height);
     gap: var(--gap);
     padding-top: 16px;
+    padding-bottom: 16px;
   }
 
 .project-image >img {
@@ -303,3 +304,4 @@ footer i {
     text-align: center;
   }
 }
+
